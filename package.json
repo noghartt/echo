@@ -1,0 +1,17 @@
+{
+  "name": "echo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rm -rf dist/",
+    "build": "tsc",
+    "build-graph": "node dist/graph.js"
+  },
+  "dependencies": {
+    "acorn": "^8.10.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9"
+  }
+}
